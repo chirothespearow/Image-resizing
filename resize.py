@@ -1,8 +1,8 @@
 from PIL import Image
 import math
 import os
-i=input('Please enter the name of the image to be resized (with extension):')    
-im=Image.open(r"/Users/admin/desktop/"+i)
+i=input('Please enter the directory address of the image:')    
+im=Image.open(ri)
 width, height = im.size
 h=300
 w=(width*300)/height
